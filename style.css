@@ -1,0 +1,82 @@
+        :root {
+            --driftwood: #272019;
+            --espresso: #130F0B;
+            --cocoa-bean: #3D271A;
+            --sandstone: #d0cac4;
+        }
+        
+        body {
+            background-color: var(--sandstone);
+            color: var(--espresso);
+        }
+        
+        .navbar {
+            background-color: var(--driftwood) !important;
+        }
+        
+        .navbar-brand, .nav-link {
+            color: var(--sandstone) !important;
+        }
+        
+        .nav-link:hover {
+            color: white !important;
+        }
+        
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+        
+        .card {
+            background-color: var(--sandstone);
+            border: 1px solid var(--driftwood);
+        }
+        
+        .card-title {
+            color: var(--cocoa-bean);
+        }
+        
+        .btn-primary {
+            background-color: var(--cocoa-bean);
+            border-color: var(--cocoa-bean);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--driftwood);
+            border-color: var(--driftwood);
+        }
+        
+        .alert-warning {
+            background-color: var(--sandstone);
+            border-color: var(--driftwood);
+            color: var(--espresso);
+        }
+        
+        #actor-info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+         .alert-warning {
+            background: var(--sandstone);
+            border: 2px solid var(--driftwood);
+            color: var(--espresso);
+        }
+        
+        h2 {
+            color: var(--cocoa-bean);
+            border-bottom: 2px solid var(--driftwood);
+            padding-bottom: 10px;
+        }
+        
+        .list-group-item {
+            background: var(--sandstone);
+            border: 1px solid var(--driftwood);
+        }
+
+        .list-group-item.active {
+        background: var(--espresso);
+        border: 1px solid var(--driftwood);
+        }
+        
